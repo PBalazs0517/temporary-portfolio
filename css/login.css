@@ -77,7 +77,7 @@ a::after {
     width: 0;
     height: 2px;
     background-color: rgb(2, 198, 51);
-    transition: 0.5s;
+    transition: 0.2s;
     transform-origin: center;
 }
 
@@ -114,8 +114,8 @@ input {
     font-size: 120%;
     height: 4%;
     min-height: 35px;
-    width: 14%;
-    min-width: 300px;
+    width: 15%;
+    min-width: 350px;
 }
 
 input:focus {
