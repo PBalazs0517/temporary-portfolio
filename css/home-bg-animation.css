@@ -1,0 +1,48 @@
+#bgAnim {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    z-index: -1;
+}
+
+.bar {
+    height: 100%;
+    width: 50%;
+}
+
+#leftBar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#rightBar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.box {
+    background-color: rgb(2, 198, 51);
+    min-height: 8px;
+    max-height: 15px;
+    min-width: 8px;
+    transition: 0.5s;
+    border:  #111 solid 1px;
+}
+
+.boxL {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.boxR {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home Page</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/home.css">
+        <link rel="stylesheet" href="../css/home-bg-animation.css">
+        <script src="../js/home.js" defer></script>
+        <script src="../js/home-bg-animation.js" defer></script>
+    </head>
+    <body>
+        <div id="bgAnim" class="bgAnim">
+            <div id="rightBar" class="bar"></div>
+        </div>
+        <div id="toolbar">
+            <div class="toolbarIcons"><div id="home" onclick="homePageOpen()" class="toolbarImages active"></div></div>
+            <div class="toolbarIcons"><div id="profile" onclick="profilePageOpen()" class="toolbarImages"></div></div>
+            <div class="toolbarIcons"><div id="notifications" onclick="notificationsPageOpen()" class="toolbarImages"></div></div>
+            <div class="toolbarIcons"><div id="friends" onclick="friendsPageOpen()" class="toolbarImages"></div></div>
+            <div class="toolbarIcons"><div id="music" onclick="musicPageOpen()" class="toolbarImages"></div></div>
+        </div>
+        <div id="contentArea" class="contentArea">
+
+            <div id="homePage">
+                <h1 class="title">Home (My projects)</h1>
+                <div id="projects">
+                    <div id="calcCont" class="projectCont">
+                        <div id="calculator" class="scale"></div>
+                        <label for="calulator"><a href="https://pbalazs0517.github.io/odin-calc/" target="_blank">Calculator</a></label>
+                    </div>
+                    <div id="rpsCont" class="projectCont">
+                        <div id="rps" class="scale"></div>
+                        <label for="rps"><a href="https://pbalazs0517.github.io/odin-rps/" target="_blank">Rock Paper Scissors</a></label>
+                    </div>
+                    <div id="easCont" class="projectCont">
+                        <div id="etchASkatch" class="scale"></div>
+                        <label for="etchASkatch"><a href="https://pbalazs0517.github.io/etch-a-sketch/" target="_blank">Etch-a-Sketch</a></label>
+                    </div>
+                </div>
+            </div>
+            <div id="profilePage">
+                <div id="decorProfile">
+                    <img id="wheelie" src="../img/Motocross-Silhouette-2.svg" draggable="false">
+                </div>
+                <h1 class="title">Profile</h1>
+                <div id="profileInfo">
+                    <div id="me">
+                        <div id="pfp"></div>
+                        <div id="meText">
+                            <div id="name" class="textInfoMe">Name: Péter Balázs</div>
+                            <div id="born" class="textInfoMe">Born: 2006/05/17</div>
+                            <div id="from" class="textInfoMe">From: Hungary</div>
+                            <div id="contact" class="textInfoMe">Contact: peterbalazs.dev@gmail.com</div>
+                        </div>
+                    </div>
+                    <div id="aboutMe">
+                        <h2 id="aboutMeTitle">About me:</h2>
+                        <p id="aboutMeText">I'm a <a id="age"></a> years old boy. I started to learn programing at the age of 15 out of boredom. I'm learning JS, HTML and CSS on intermediate level and Ruby on a beginner level. I was 15 when I did my intermediate english language exam and when I got my license. I'm learning "Finance and Accounting" in school. My main hobby is my dirtbike, I like to go ride with my friends almost every day. My goal is to have a job where I can use these skills beacuse I love every part of them. </p>
+                    </div>
+                </div>
+            </div>
+            <div id="notificationsPage">
+                <h1 class="title">Notifications</h1>
+            </div>
+            <div id="friendsPage">
+                <h1 class="title">Friends</h1>
+            </div>
+            <div id="musicPage">
+                <h1 class="title">Music</h1>
+            </div>
+
+            </div>
+        </div>
+    </body>
+</html>
