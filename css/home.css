@@ -93,6 +93,7 @@ a::after {
 #toolbar {
     position: fixed;
     height: 40vh;
+    max-height: 400px;
     width: 4vh;
     background-color: var(--bgclr)2;  
     left: 0;
@@ -302,10 +303,10 @@ a::after {
 
 #decorProfile {
     position: absolute;
-    left: 9%;
+    left: 10%;
     bottom: 5%;
     height: 80%;
-    width: 70%;
+    width: 80%;
     border-bottom: dashed rgb(2, 198, 51) 6px;
     z-index: -1;
 }

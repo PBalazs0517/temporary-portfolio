@@ -115,7 +115,7 @@ input {
     height: 4%;
     min-height: 35px;
     width: 14%;
-    min-width: 180px;
+    min-width: 300px;
 }
 
 input:focus {
