@@ -18,8 +18,6 @@ function homePageOpen(){
 
     profilePage.style.display = "none";
     notificationsPage.style.display = "none";
-    friendsPage.style.display = "none";
-    musicPage.style.display = "none";
 };
 let profilePage = document.getElementById("profilePage");
 function profilePageOpen(){
@@ -27,8 +25,6 @@ function profilePageOpen(){
 
     homePage.style.display = "none";
     notificationsPage.style.display = "none";
-    friendsPage.style.display = "none";
-    musicPage.style.display = "none";
 };
 let notificationsPage = document.getElementById("notificationsPage");
 function notificationsPageOpen(){
@@ -36,28 +32,7 @@ function notificationsPageOpen(){
 
     homePage.style.display = "none";
     profilePage.style.display = "none";
-    friendsPage.style.display = "none";
-    musicPage.style.display = "none";
 };
-let friendsPage = document.getElementById("friendsPage");
-function friendsPageOpen(){
-    friendsPage.style.display = "flex";
-
-    homePage.style.display = "none";
-    profilePage.style.display = "none";
-    notificationsPage.style.display = "none";
-    musicPage.style.display = "none";
-};
-let musicPage = document.getElementById("musicPage");
-function musicPageOpen(){
-    musicPage.style.display = "flex";
-
-    homePage.style.display = "none";
-    profilePage.style.display = "none";
-    notificationsPage.style.display = "none";
-    friendsPage.style.display = "none";
-};
-
 //age for about me
 let currentYear = new Date().getFullYear();
 let myAge = document.getElementById("age");
